@@ -132,7 +132,7 @@ export function InputValue() {
 
         </C.Context>
     </C.Container>
-    <Detail/>
+    <Detail salary={salary} deduction={deduction} depedent={itemDepedent}/>
     </>
   )
 }

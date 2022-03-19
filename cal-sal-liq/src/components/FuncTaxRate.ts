@@ -12,7 +12,9 @@ export const Inss = (salary: Number) =>{
   };
 
 export const percentageInss = (salary: Number) =>{
-    if(salary <= 1212){
+    if(salary === 0){
+        return  '-';
+      }else if(salary <= 1212){
         return  '7.5 %';
       }else if (salary <= 2427.35){
         return '9 %' ;
