@@ -2,7 +2,8 @@
 
 [Technologies](#Technologies-Desafio-Agilize)  |  [How To Use](#how-to-use-Desafio-Agilize)  |  [My Purpose](#my-purpose-Desafio-Agilize) | [Challenge I Faced ](#challenge-i-faced-Desafio-Agilize)
 </br></br>
-<img src='/src/assets/desafio.png' alt='Desafio-Agilize'>
+
+<img src='https://user-images.githubusercontent.com/39052029/159178085-d354272e-b9a5-4b96-8ca6-2018a9645fec.png' alt='Desafio-Agilize'>
 
 ========================= ## =========================
 <a id="Technologies-Desafio-Agilize"></a>
