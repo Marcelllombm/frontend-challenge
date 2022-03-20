@@ -20,6 +20,7 @@ export function Detail({salary, deduction, depedent} : props) {
         <C.Content>
           <h3>Como o cálculo é feito?</h3>
           <table>
+            <tbody>
             <tr>
                 <td>Salário</td>
                 <td>R$ {salary.toLocaleString('pt-BR',  { minimumFractionDigits: 2,
@@ -49,6 +50,7 @@ export function Detail({salary, deduction, depedent} : props) {
                 maximumFractionDigits: 2 })}
                  </td>
             </tr>
+            </tbody>
           </table>
         </C.Content>
         

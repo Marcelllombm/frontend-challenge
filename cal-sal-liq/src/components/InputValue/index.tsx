@@ -8,6 +8,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import { Detail } from '../Detail';
 
+
 export function InputValue() {
   // input
   const [grossSalary, setGrossSalary] =useState(0);
@@ -68,7 +69,7 @@ export function InputValue() {
     <C.Container>
       <ToastContainer/>
       <C.Header>
-          <img src={logo} alt="logo" />
+          <img data-testid='tagImg' src={logo} alt="logo" />
           <h1>Calculadora de salário líquido</h1>
       </C.Header>
 
@@ -80,8 +81,9 @@ export function InputValue() {
             <h3>Qual seu salário bruto? </h3>
             <span className='cifrao'>R$</span>
             <input 
+            data-testid="grossSalary"
             type='number'
-            value={grossSalary}
+            value={grossSalary === 0 ? '0,00' : grossSalary}
             placeholder='0,00'
             onChange={event => setGrossSalary(Number(event.target.value))}
             autoComplete='off'
@@ -96,8 +98,9 @@ export function InputValue() {
             <h3>Total de descontos </h3>
             <span className='cifrao'>R$</span>
             <input 
+            data-testid="salaryDeduction"
             type='number'
-            value={salaryDeduction}
+            value={salaryDeduction === 0 ?  '0,00' : salaryDeduction}
             placeholder='0,00'
             onChange={event => setSalaryDeduction(Number(event.target.value))}
             autoComplete='off'
@@ -110,8 +113,9 @@ export function InputValue() {
 
           <label>
             <h3>Quantos dependentes você tem?</h3>
-            <button className='decrease' onClick={handleDecrease}><img  src={decrease} alt='diminuir'/></button>
+            <button data-testid="descrease" className='decrease' onClick={handleDecrease}><img  src={decrease} alt='diminuir'/></button>
             <input 
+            data-testid="dependent"
             type='number'
             value={dependent}
             autoComplete='off'
@@ -120,7 +124,7 @@ export function InputValue() {
             onChange={event => setDependent(Number(event.target.value))}
             
             />
-            <button  className='increase' onClick={handleIncrease}><img src={increase} alt='aumentar'/></button>
+            <button data-testid="increase"  className='increase' onClick={handleIncrease}><img src={increase} alt='aumentar'/></button>
             <h6>
               <img src={vetor} alt="vetor"/>
               Dependentes declarados no Imposto de Renda
