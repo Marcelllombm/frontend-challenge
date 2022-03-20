@@ -43,6 +43,15 @@ export const ContentBox = styled.div`
             font-family: Roboto;
         }
     }
+    @media (max-width: 900px){
+        display: flex;
+        flex-direction: column;
+
+        h1{
+            margin-top: -20px;
+            margin-bottom: 30px;
+        }
+    }
 `;
 
 export const Content = styled.div`
@@ -87,4 +96,5 @@ export const Content = styled.div`
         border-top: 1px solid white;
     }
    
+
 `;

@@ -101,7 +101,38 @@ form{
         
     }
 }
+
+@media (max-width: 1240px){
     
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;    
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 61px;
+        label{
+            margin-top:10px;
+            margin-bottom: 20px;
+            text-align: center;
+            align-items: center;
+                .cifrao{
+                    padding: 19.5px 20px;            
+                }
+        } 
+    }
+}  
+
+@media (max-width: 1080px){
+    
+    form{
+        label{
+                .cifrao{
+                    padding: 21.5px 20px;            
+                }
+        } 
+    }
+} 
 `;
 
 export const Header = styled.header`
