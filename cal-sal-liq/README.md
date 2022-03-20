@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+# Desafio-Agilize
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Technologies](#Technologies-Desafio-Agilize)  |  [How To Use](#how-to-use-Desafio-Agilize)  |  [My Purpose](#my-purpose-Desafio-Agilize) | [Challenge I Faced ](#challenge-i-faced-Desafio-Agilize)
+</br></br>
+<img src='/src/assets/desafio.png' alt='Desafio-Agilize'>
 
-## Available Scripts
+========================= ## =========================
+<a id="Technologies-Desafio-Agilize"></a>
 
-In the project directory, you can run:
+### < Technologies />
 
-### `yarn start`
+:arrow_right:  This project was developed with the following technologies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Reactjs](https://reactjs.org/)
+- [React-toastify](https://npm.io/package/react-toastify)
+- [Styled-Components](https://styled-components.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [React Testing Librar](https://github.com/testing-library/react-testing-library)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+========================= ## =========================
+<a id="how-to-use-Desafio-Agilize"></a>
 
-### `yarn test`
+### < How To Use />
+:hash: To clone and run this application, you will need Git, Node.js v14.15 or higher installed on your computer. From your command line:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+# Clone this repository
+$ git clone git@github.com:Marcelllombm/frontend-challenge.git
 
-### `yarn build`
+# Go into the repository
+$ cd frontend-challenge
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Enter the branch Desafio-Agilize
+$ git checkout marcelo-borges
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# enter the folder
+$ cd cal-sal-liq
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+$ npm install or yarn
 
-### `yarn eject`
+# Run the app
+$ npm start or yarn start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#Run the test
+$ npm test or yarn test
+```
+========================= ## =========================
+<a id="my-purpose-Desafio-Agilize"></a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### < My Purpose />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+:dart: Purpose of doing this challenge is to fill the front-end charge.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+========================= ## =========================
+<a id="challenge-i-faced-Desafio-Agilize"></a>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### < Challenge I Faced />
+:cyclone: Challenge I faced was using typescript and unit testing.
+<hr>
